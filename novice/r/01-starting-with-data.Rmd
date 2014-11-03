@@ -39,6 +39,7 @@ To be able to do our plot which is our aim we need to be able to understand and 
 * Display simple graphs.
 
 ### Loading Data
+**Need an explanation of the data - is it a timeseries - describe it - er data is important but have to know what it is trying to represent and how it was collected and what are the units'
 
 To load our inflammation data, first we need to locate our data.
 We can change the current working directory to the location of the CSV files using the function `setwd`.
@@ -183,7 +184,7 @@ We can see the dimensions, or [shape](../../gloss.html#shape), of the data frame
 dim(dat)
 ```
 
-This tells us that our data frame, `dat`, has `r nrow(dat)` rows and `r ncol(dat)` columns.
+This tells us that our data frame, `dat`, has `nrow(dat)` rows and `ncol(dat)` columns. `dim(dat)` returns the number of rows first and then the number of columns for a data frame.
 
 If we want to get a single value from the data frame, we can provide an [index](../../gloss.html#index) in square brackets, just as we do in math:
 
@@ -287,6 +288,7 @@ We'll learn why this is so in the next lesson.
 For example, you can calculate the row-wise or column-wise means with `rowMeans` and `colMeans`, respectively.
 
 #### Challenge
+**good to have but need to let people know where to get help - perhaps add a section at the beginning**
 
 A subsection of a data frame is called a [slice](../../gloss.html#slice).
 We can take slices of character vectors as well:
