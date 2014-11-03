@@ -2,7 +2,7 @@
 layout: lesson
 root: ../..
 ---
-
+**no explanation for what the following lines do - learners benefit from some kind of words otherwise feel lost straight away**
 ```{r, include = FALSE}
 source("chunk-options.R")
 opts_chunk$set(fig.path = "figure/01-starting-with-data-")
@@ -15,21 +15,22 @@ and need to analyze the first dozen data sets.
 The data sets are stored in [comma-separated values](../../gloss.html#comma-separeted-values) (CSV) format: each row holds information for a single patient, and the columns represent successive days. 
 The first few rows of our first file look like this:
 
+**again explanation needed as to what is happening**
 ```{r echo = FALSE}
 tmp <- read.csv("inflammation-01.csv", header = FALSE, nrows = 5)
 write.table(tmp, quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
 rm(tmp)
 ```
 
-We want to:
+**this is no the way people learn!, first want to feel comfortable with the data describing it - format, columns, type of data in each column, does it have nulls as this needs special processing**
 
-* load that data into memory,
-* calculate the average inflammation per day across all patients, and
-* plot the result.
+### Aim
+We want to *plot the average inflammation per day across all patients* using R (of course)
 
-To do all that, we'll have to learn a little bit about programming.
+To do this we will learn about the steps we need to perform (e.g. load, calculate, plot) and how these are done in R.
 
-#### Objectives
+#### Steps
+To be able to do our plot which is our aim we need to be able to understand and perform the following steps:
 
 * Read tabular data from a file into a program.
 * Assign values to variables.
