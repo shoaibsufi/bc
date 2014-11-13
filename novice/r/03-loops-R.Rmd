@@ -254,7 +254,7 @@ In our case, the "something" we want is our `analyze` function.
 Let's test it by analyzing the first three files in the vector:
 
 ```{r loop-analyze, fig=FALSE}
-filenames <- list.files(pattern = "csv")
+filenames <- list.files(pattern = "inflammation")
 filenames <- filenames[1:3]
 for (f in filenames) {
   print(f)
