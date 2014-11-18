@@ -82,7 +82,7 @@ grid4[c(TRUE, FALSE)] <- "blue"
 grid4
 ```
 
-In this example, we are using a logical vector `c(TRUE, FALSE)` to access elements of the vector grid4. According to the recycling rule, this short vector is expanded out as `c(TRUE, FALSE, TRUE, FALSE, TRUE) to match the length of grid4. The grid image makes on top makes it easy to understand what is happening.
+In this example, we are using a logical vector `c(TRUE, FALSE)` to access elements of the vector grid4. According to the **recycling rule**, this short vector is expanded out as `c(TRUE, FALSE, TRUE, FALSE, TRUE) to match the length of grid4. The grid image makes it easier to understand what is happening.
 
 R has lots of ways to refer to colors:
 
