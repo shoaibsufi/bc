@@ -205,11 +205,11 @@ We can also chain several tests together using `else if` and `else`. This makes 
 ```{r}
 Sign <- function(num){
 	if (num > 0) {
-		return (1)
+		return ('+')
 	} else if (num == 0) {
-    	return (0)
+    	return ('+')
     } else {
-    	return (-1)
+    	return ('-')
     }
 }
 
