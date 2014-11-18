@@ -216,7 +216,7 @@ Sign <- function(num){
 paste('sign of -3:', Sign(-3))
 ```
 
-One important thing to notice the code above is that we use a double equals sign == to test for equality rather than a single equals sign because the latter is used to mean assignment. This convention was inherited from `C`, and while many other programming languages work the same way, it does take a bit of getting used to... You can think of it in a sentence the difference between "equals" (=) and "is equal to" (==).
+One important thing to notice the code above is that we use a double equals sign == to test for equality rather than a single equals sign because the latter is used to mean assignment. This convention was inherited from `C`, and while many other programming languages work the same way, it does take a bit of getting used to... You can think of it in a sentence the difference between "is set to" (=) and "is equal to" (==).
 
 We can also combine tests using `&` and `|` and is only true if both parts are true:
 
