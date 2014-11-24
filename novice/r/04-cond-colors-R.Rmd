@@ -495,7 +495,7 @@ We can now explore our data with just a few keystrokes, which means we can conce
 2. Why not have the function perform the transpose?
 3. Why does the heat map function return the grid rather than displaying it immediately? 
 4. Do you think this is a good or bad design choice?
-5. Explain what the overall effect of this code is: `temp = left left = right right = temp`
+5. Explain what the overall effect of this code is: ```{r}temp<-'left';left<-'right';right = temp```
 
 ## Key Points
 
