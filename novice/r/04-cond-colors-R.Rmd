@@ -335,7 +335,7 @@ This is our first hand-made data visualization: the colors show where x is less 
 The last step is to turn our data into something we can see. As in previous lessons, the first step is to get the data into memory:
 
 ```{r}
-dat <- data.matrix(read.csv("data/inflammation-01.csv", header=FALSE))
+dat <- data.matrix(read.csv("inflammation-01.csv", header=FALSE))
 dim(dat)
 ```
 
