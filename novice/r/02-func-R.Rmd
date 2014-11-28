@@ -139,7 +139,7 @@ final <- fahr_to_celsius(original)
 
 The diagram below shows what memory looks like after the first line has been executed:
 
-<img src="../python/img/python-call-stack-01.svg" alt="Call Stack (Initial State)" />
+<img src="https://raw.githubusercontent.com/shoaibsufi/bc/gh-pages/novice/python/img/python-call-stack-01.svg" alt="Call Stack (Initial State)" />
 
 When we call `fahr_to_celsius`, R *doesn't* create the variable `temp` right away.
 Instead, it creates something called a [stack frame](../../gloss.html#stack-frame) to keep track of the variables defined by `fahr_to_kelvin`.
