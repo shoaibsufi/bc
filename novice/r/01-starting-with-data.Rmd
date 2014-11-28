@@ -2,7 +2,7 @@
 layout: lesson
 root: ../..
 ---
-**no explanation for what the following lines do - learners benefit from some kind of words otherwise feel lost straight away**
+
 ```{r, include = FALSE}
 source("chunk-options.R")
 opts_chunk$set(fig.path = "figure/01-starting-with-data-")
@@ -15,14 +15,13 @@ and need to analyze the first dozen data sets.
 The data sets are stored in [comma-separated values](../../gloss.html#comma-separeted-values) (CSV) format: each row holds information for a single patient, and the columns represent successive days. 
 The first few rows of our first file look like this:
 
-**again explanation needed as to what is happening**
+
 ```{r echo = FALSE}
 tmp <- read.csv("inflammation-01.csv", header = FALSE, nrows = 5)
 write.table(tmp, quote = FALSE, sep = ",", row.names = FALSE, col.names = FALSE)
 rm(tmp)
 ```
 
-**this is no the way people learn!, first want to feel comfortable with the data describing it - format, columns, type of data in each column, does it have nulls as this needs special processing**
 
 ### Aim
 We want to *plot the average inflammation per day across all patients* using R (of course)
@@ -39,7 +38,7 @@ To be able to do our plot which is our aim we need to be able to understand and 
 * Display simple graphs.
 
 ### Loading Data
-**Need an explanation of the data - is it a timeseries - describe it - er data is important but have to know what it is trying to represent and how it was collected and what are the units'
+
 
 To load our inflammation data, first we need to locate our data.
 We can change the current working directory to the location of the CSV files using the function `setwd`.
