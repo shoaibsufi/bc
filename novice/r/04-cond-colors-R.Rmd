@@ -378,7 +378,7 @@ Here's how we can improve it:
 
 * We can give ImageGrid an optional parameter block_size to set the size of each block.
 * We can transpose our data before creating the grid.
-* We can pick better colors (I'm personally fond of orchid, fuchsia, and hot pink).
+* We can pick better colors (let's try orchid, fuchsia, and hot pink).
 * Instead of checking if values are exactly equal to the mean, we can see if they are close to it.
 * We can calculate the mean once, before we start our loops, and use that value over and over.
 
