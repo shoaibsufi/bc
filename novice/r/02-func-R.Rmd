@@ -139,8 +139,8 @@ final <- fahr_to_celsius(original)
 
 The diagram below shows what memory looks like after the first line has been executed:
 
-
- <img src="figure/python-call-stack-01.svg" alt="Call Stack (Initial State)" />
+<img src="figure/CSV_WithSpecialNA.png" alt="csv written with -9999 as NA" />
+<img src="figure/python-call-stack-01.svg" alt="Call Stack (Initial State)" />
 
 
 When we call `fahr_to_celsius`, R *doesn't* create the variable `temp` right away.
