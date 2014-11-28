@@ -138,7 +138,7 @@ final <- fahr_to_celsius(original)
 ```
 
 The diagram below shows what memory looks like after the first line has been executed:
-!(Call Stack)[../python/img/python-call-stack-01.svg]
+![Call Stack](../python/img/python-call-stack-01.svg)
 
  <img src="https://raw.githubusercontent.com/shoaibsufi/bc/gh-pages/novice/python/img/python-call-stack-01.svg" alt="Call Stack (Initial State)" />
 
